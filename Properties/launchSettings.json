@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "blog__dotnet_azure_functions_localization": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7151",
+      "launchBrowser": false
+    }
+  }
+}
