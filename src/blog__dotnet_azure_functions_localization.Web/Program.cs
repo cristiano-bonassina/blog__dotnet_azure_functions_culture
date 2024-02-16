@@ -13,9 +13,10 @@ var host = new HostBuilder()
     .ConfigureServices(services =>
     {
 
-        // Adds services required for application localization
+        // Add services required for application localization
         services.AddLocalization();
 
+        // Add string resources from 'Resources' project
         services.AddSingleton(serviceProvider =>
         {
             var localizerFactory = serviceProvider.GetRequiredService<IStringLocalizerFactory>();
